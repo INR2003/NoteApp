@@ -32,15 +32,15 @@ export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.heading}>📝 Notes App</Text>
+        <Text style={styles.heading}>App</Text>
       </View>
 
-      <FlatList
+      {/* <FlatList
         data={notes}
         keyExtractor={(item) => item.id}
         renderItem={renderItem}
         contentContainerStyle={styles.list}
-      />
+      /> */}
 
       <Pressable style={styles.fab}>
         <Text style={styles.fabText}>+</Text>
